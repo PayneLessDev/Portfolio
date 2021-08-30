@@ -1,0 +1,140 @@
+ul{
+  list-style: none;
+}
+
+.menu-wrap{
+  position: fixed;
+  top: 0;
+  left: 93%;
+  z-index: 2;
+}
+
+.menu-wrap .toggler{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+
+}
+
+.menu-wrap .hamburger{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  padding: 1rem;
+  background: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .hamburger > div{
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+  animation: glow 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after{
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+.menu-wrap .hamburger > div:after{
+  top: 10px;
+}
+
+.menu-wrap .toggler:checked + .hamburger > div{
+  transform: rotate(135deg);
+}
+
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after{
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.menu-wrap .toggler:hover + .hamburger > div{
+  transform: rotate(225deg);
+}
+
+.menu-wrap .toggler:checked ~ .menu{
+  visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(01);
+  transition-duration: 0.75s ;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  content: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .menu > div {
+  background: var(--dark0);
+  border-radius: 50%;
+  width: 200vw;
+  height: 200vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transition: scale(0);
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 90vw;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  color: var(--light);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease;
+
+}
+
