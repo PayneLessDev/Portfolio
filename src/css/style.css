@@ -1,0 +1,293 @@
+/* Themeing */
+:root{
+    --text-dark: #494b53;
+    --bg-dark: rgb(0,0,0);
+    --rad-dark: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+
+    --text-light: #abb2bf;
+    --bg-light: rgb(250,250,250);
+    --rad-light: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(230,230,230,1) 100%);
+
+    --font-heading: 'Hahmlet', serif;
+    --font-main: 'Inter', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+/* Utility Classes */
+.pointer{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.center-text{
+    text-align:center;
+}
+.upcase{
+    text-transform: uppercase;
+}
+.inter{
+    font-family: var(--font-main);
+}
+.ham{
+    font-family: var(--font-heading)
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+/* Body Themes */
+body{
+    background: var(--bg-light);
+    background:var(--rad-light);
+    color: var(--text-dark);
+    font-family: var(--font-main);
+}
+
+body.dark-theme{
+    background: var(--bg-dark);
+    background: var(--rad-dark);
+    color: var(--text-light);
+    font-family: var(--font-main);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: var(--bg-dark);
+        background: var(--rad-dark);
+        color: var(--text-light);
+        font-family: var(--font-main);
+    }
+
+    body.light-theme {
+        background: var(--bg-light);
+        background:var(--rad-light);
+        color: var(--text-dark);
+        font-family: var(--font-main);
+  }
+}
+
+
+/* Base Style */
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+ul, li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-heading)
+}
+
+.fas{
+    margin: 10px 10px 0px 10px;
+}
+
+/* Flex Containers */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container-header{
+    height: 15vh;
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.container-footer{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grids */
+.top-grid{
+    display: grid;
+    grid-template-areas:
+    "toggle title hamburger"
+    "subtitle subtitle subtitle"
+    "social social social";
+    grid-template-columns: 5% 90% 5%;
+}
+.head-toggle{
+    grid-area: toggle;
+}
+.head-title{
+    grid-area: title;
+}
+.head-hamburger{
+    grid-area: hamburger;
+}
+.subtitle{
+    grid-area: subtitle;
+}
+.socials{
+    grid-area: social;
+}
+
+/*Title & Subtitle */
+.title{
+    margin: 5px 0 0 0;
+}
+
+.subtitle{
+    margin: 0 0 5px 0;
+}
+
+/* Profile Image */
+.profile{
+    text-align:center;
+}
+.profile>img{
+    border-radius: 50%;
+    width: 20rem;
+    margin-bottom: 50px;
+    box-shadow: 0 0 50px 0 rgba(73,75,83,0.7);
+}
+.profile p{
+    margin: 5px 0 5px 0;
+}
+
+blockquote{
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(73,75,83,0.7);
+}
+/* Social Bar */
+.socials-nav>ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.socials-nav>ul>li{
+    padding: 0 10px;
+}
+
+#overlay{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.9s;
+    background: var(--rad-light);
+}
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+}
+.overlay>a{
+  padding: 8px;
+  display: block;
+  transition: 0.3s;
+}
+/* Contact Page */
+.contact-form{
+    width: 60ch;
+    box-shadow: 0 0 20px 0 rgba(73,75,83,0.7);
+    text-align: center;
+}
+.contact-form *{
+    padding: 0;
+    margin: 0;
+}
+.contact-form div{
+    padding: 5px 10px 5px 10px;
+    display: grid;
+}
+
+/* Blog Page */
+.container-blog{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 5% 95%;
+    grid-template-areas:
+    "title title"
+    "sidebar main";
+}
+.container-blog h1{
+    margin: 0;
+}
+.blog-title{
+    text-align: center;
+    grid-area: title;
+}
+.blog-aside{
+    grid-area: sidebar;
+}
+.blog-main{
+    grid-area: main;
+    padding: 1rem;
+}
+.resume-page{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 5% 25% 35% 35%;
+    grid-template-areas:
+    ". btn ."
+    "skill1 skill2 skill3"
+    "col1 col2 col3"
+    "col1 col2 col3";
+}
+
+.resume-page p{
+    padding: 10px;
+}
+.skill1{
+    grid-area: skill1;
+    padding: 10px;
+    text-align: center;
+}
+
+.skill2{
+    grid-area: skill2;
+    text-align: center;
+}
+.skill3{
+    grid-area: skill3;
+    text-align: center;
+}
+
+.resume-btn{
+    grid-area: btn;
+}
+
+.col1{
+    grid-area: col1;
+}
+
+.col2{
+    grid-area: col2;
+}
+
+.col3{
+    grid-area: col3;
+}
+
+.image-blog{
+    border-radius: 50%;
+    width: 20rem;
+    margin-bottom: 50px;
+}
