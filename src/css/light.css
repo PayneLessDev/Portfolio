@@ -23,9 +23,6 @@ ul{
     flex-wrap: wrap;
 }
 
-li{
-    padding-left: 20px;
-}
 
 h1, h2{
     font-family: 'Hahmlet', serif;
@@ -36,20 +33,48 @@ a, a:hover, a:focus, a:active {
       color: inherit;
 }
 
-.container{
+.container-header{
     display: flex;
+    height: 10vh;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    justify-content: center;
 }
 
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.container-footer{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Title & Subtitle */
+.title,.subtitle{
+    margin: 0;
+}
+
+/* Profile Image */
 .profile>img{
     border-radius: 50%;
     width: 20rem;
 }
 
+/* Social Bar */
+.social>ul{
+    margin: 0;
+    padding: 0;
+}
+.social>ul>li{
+    padding: 0 10px;
+}
 /* Hambergor menu */
 .menu-wrap{
   position: fixed;
