@@ -1,10 +1,22 @@
+/* Themeing */
+:root{
 
+}
 body{
     background: rgb(250,250,250);
     background: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(230,230,230,1) 100%);
     color: #494b53;
+    font-family: 'Inter', sans-serif;
 }
 
+body.dark-theme{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+    color: #abb2bf;
+    font-family: 'Inter', sans-serif;
+}
+
+/* TODO */
 ul{
     list-style: none;
     display: flex;
@@ -17,7 +29,6 @@ li{
 
 h1, h2{
     font-family: 'Hahmlet', serif;
-   /* font-family: 'Inter', sans-serif; */
 }
 
 a, a:hover, a:focus, a:active {
@@ -30,18 +41,16 @@ a, a:hover, a:focus, a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-.profile{
+.profile>img{
     border-radius: 50%;
     width: 20rem;
 }
 
-.test .title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* Hambergor menu */
 .menu-wrap{
   position: fixed;
   top: 0;
@@ -145,7 +154,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .menu-wrap .menu > div {
-  background: var(--dark0);
+  background: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(230,230,230,1) 100%);
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
