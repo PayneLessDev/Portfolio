@@ -36,7 +36,7 @@ a, a:hover, a:focus, a:active {
 /* Flex Containers */
 .container-header{
     display: flex;
-    height: 10vh;
+    height: 15vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@ a, a:hover, a:focus, a:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: 80vh;
 }
 
 .container-footer{
@@ -59,7 +59,8 @@ a, a:hover, a:focus, a:active {
 
 /*Title & Subtitle */
 .title{
-    margin: 5px 0 0 0;
+    margin: 0;
+    padding: 15px 0 0 0;
 }
 
 .subtitle{
