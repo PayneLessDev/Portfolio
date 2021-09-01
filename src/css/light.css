@@ -1,11 +1,51 @@
-ul{
-  list-style: none;
+
+body{
+    background: rgb(250,250,250);
+    background: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(230,230,230,1) 100%);
+    color: #494b53;
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    padding-left: 20px;
+}
+
+h1, h2{
+    font-family: 'Hahmlet', serif;
+   /* font-family: 'Inter', sans-serif; */
+}
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 20rem;
+}
+
+.test .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .menu-wrap{
   position: fixed;
   top: 0;
-  left: 93%;
+  left: 95%;
   z-index: 2;
 }
 
