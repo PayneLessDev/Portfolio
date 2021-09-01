@@ -33,6 +33,7 @@ a, a:hover, a:focus, a:active {
       color: inherit;
 }
 
+/* Flex Containers */
 .container-header{
     display: flex;
     height: 10vh;
@@ -57,13 +58,17 @@ a, a:hover, a:focus, a:active {
 
 
 /*Title & Subtitle */
-.title,.subtitle{
-    margin: 0;
+.title{
+    margin: 5px 0 0 0;
+}
+
+.subtitle{
+    margin: 0 0 5px 0;
 }
 
 /* Profile Image */
 .profile>img{
-    border-radius: 50%;
+    border-radius: 15%;
     width: 20rem;
 }
 
