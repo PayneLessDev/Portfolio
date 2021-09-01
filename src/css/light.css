@@ -47,6 +47,7 @@ a, a:hover, a:focus, a:active {
     align-items: center;
     justify-content: center;
     height: 80vh;
+    width: 100vw;
 }
 
 .container-footer{
@@ -69,7 +70,7 @@ a, a:hover, a:focus, a:active {
 
 /* Profile Image */
 .profile>img{
-    border-radius: 15%;
+    border-radius: 50%;
     width: 20rem;
 }
 
