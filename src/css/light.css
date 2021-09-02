@@ -33,23 +33,29 @@
     font-family: var(--font-heading)
 }
 
+
 /* Body Themes */
 body{
     background: var(--bg-light);
     background:var(--rad-light);
     color: var(--text-dark);
+    font-family: var(--font-main);
 }
 
 body.dark-theme{
     background: var(--bg-dark);
     background: var(--rad-dark);
     color: var(--text-light);
+    font-family: var(--font-main);
 }
 
 /* Reset Links */
 a, a:hover, a:focus, a:active {
       text-decoration: none;
       color: inherit;
+}
+ul, li{
+    list-style: none;
 }
 .fas{
     margin: 10px 10px 0px 10px;
@@ -130,4 +136,27 @@ a, a:hover, a:focus, a:active {
 }
 .socials-nav>ul>li{
     padding: 0 10px;
+}
+
+#overlay{
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.9s;
+    background: grey;
+}
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+}
+.overlay>a{
+  padding: 8px;
+  display: block;
+  transition: 0.3s;
 }
