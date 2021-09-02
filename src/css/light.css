@@ -17,7 +17,7 @@
 .pointer{
     cursor: pointer;
 }
-.none{
+.hidden{
     display: none;
 }
 .center-text{
@@ -46,14 +46,7 @@ body.dark-theme{
     color: var(--text-light);
 }
 
-/* TODO */
-ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
+/* Reset Links */
 a, a:hover, a:focus, a:active {
       text-decoration: none;
       color: inherit;
@@ -114,8 +107,7 @@ a, a:hover, a:focus, a:active {
 
 /*Title & Subtitle */
 .title{
-    margin: 0;
-    padding: 15px 0 0 0;
+    margin: 5px 0 0 0;
 }
 
 .subtitle{
@@ -129,11 +121,13 @@ a, a:hover, a:focus, a:active {
 }
 
 /* Social Bar */
-.socials>ul{
+.socials-nav>ul{
     margin: 0;
     padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
-.socials>ul>li{
+.socials-nav>ul>li{
     padding: 0 10px;
-    text-align: center;
 }
