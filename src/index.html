@@ -28,26 +28,32 @@
 
 <body>
     <header class="container-header">
-        <input id="tgl" type="checkbox">
-        <label for="tgl"><i class="fas fa-lightbulb fa-2x"></i></label>
+
+        <!-- Dark Mode Toggler -->
+        <input id="tgl" type="checkbox" class="none">
+        <label for="tgl" class="pointer"><i class="fas fa-lightbulb fa-2x"></i></label>
+
         <!-- Title -->
         <h1 class="title">Adam Payne</h1>
+
         <!-- Hamburger -->
-        <input id="burger" type="checkbox" />
-        <label for="burger">
+        <input id="burger" type="checkbox" class="none"/>
+        <label for="burger" class="pointer">
             <i class="fas fa-bars fa-2x"></i>
             <span></span>
             <span></span>
             <span></span>
         </label>
         <nav>
-        <ul>
-            <li><a href="#">Link #1</a></li>
-            <li><a href="#">Link #2</a></li>
-            <li><a href="#">Link #3</a></li>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">resume</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
         </nav>
 
+        <!-- Subtitle -->
         <h2 class="subtitle">Developer | Stoic | Anarchist</h2>
         <nav class="social">
             <ul>
@@ -69,7 +75,7 @@
     <footer class="container-footer">
         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> PayneLessDev&trade;</p>
     </footer>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <scripzt src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
