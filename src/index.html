@@ -28,39 +28,38 @@
 
 <body>
     <header class="container-header">
-
-        <!-- Dark Mode Toggler -->
-        <input id="tgl" type="checkbox" class="none">
-        <label for="tgl" class="pointer"><i class="fas fa-lightbulb fa-2x"></i></label>
-
-        <!-- Title -->
-        <h1 class="title ham">Adam Payne</h1>
-
-        <!-- Hamburger -->
-        <input id="burger" type="checkbox" class="none"/>
-        <label for="burger" class="pointer">
-            <i class="fas fa-bars fa-2x"></i>
-        </label>
-        <nav id="burgernav">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">resume</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-
-        <!-- Subtitle -->
-        <h2 class="subtitle ham">Developer | Stoic | Anarchist</h2>
-        <nav class="social">
-            <ul>
-                <li><a href="https://github.com/PayneLessDev"><i class="fab fa-github-square fa-2x"></i></a></li>
-                <li><a href="https://www.instagram.com/paynelessdev/"><i class="fab fa-instagram-square fa-2x"></a></i></li>
-                <li><a href="https://www.linkedin.com/in/paynelessdev/"><i class="fab fa-linkedin fa-2x"></a></i></li>
-                <li><a href="https://twitter.com/PayneLessDev"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-                <li><a href="https://medium.com/@paynelessdev"><i class="fab fa-medium fa-2x"></a></i></li>
-            </ul>
-        </nav>
+        <div class="top-grid">
+            <!-- Dark Mode Toggler -->
+            <div class="head-toggle">
+                <input id="tgl" type="checkbox" class="none">
+                <label for="tgl" class="pointer">
+                    <i class="fas fa-lightbulb fa-2x"></i>
+                </label>
+            </div>
+            <!-- Title -->
+            <div class="head-title">
+                <h1 class="title ham center-text">Adam Payne</h1>
+            </div>
+            <!-- Hamburger -->
+            <div class="head-hamburger">
+                <input id="burger" type="checkbox" class="none"/>
+                <label for="burger" class="pointer">
+                    <i class="fas fa-bars fa-2x"></i>
+                </label>
+            </div>
+            <!-- Subtitle -->
+            <h2 class="subtitle ham center-text">Developer | Stoic | Anarchist</h2>
+            <!-- Socials -->
+            <nav class="socials">
+                <ul>
+                    <li><a href="https://github.com/PayneLessDev"><i class="fab fa-github-square fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/paynelessdev/"><i class="fab fa-instagram-square fa-2x"></a></i></li>
+                    <li><a href="https://www.linkedin.com/in/paynelessdev/"><i class="fab fa-linkedin fa-2x"></a></i></li>
+                    <li><a href="https://twitter.com/PayneLessDev"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="https://medium.com/@paynelessdev"><i class="fab fa-medium fa-2x"></a></i></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="container-main">
@@ -72,7 +71,8 @@
     <footer class="container-footer">
         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> PayneLessDev&trade;</p>
     </footer>
-  <scripzt src="js/vendor/modernizr-3.11.2.min.js"></script>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
