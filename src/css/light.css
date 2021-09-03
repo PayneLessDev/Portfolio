@@ -10,7 +10,7 @@
 
     --font-heading: 'Hahmlet', serif;
     --font-main: 'Inter', sans-serif;
-    --font-quote: ;
+    --font-code: 'JetBrains Mono', monospace;
 }
 
 /* Utility Classes */
@@ -48,6 +48,23 @@ body.dark-theme{
     color: var(--text-light);
     font-family: var(--font-main);
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: var(--bg-dark);
+        background: var(--rad-dark);
+        color: var(--text-light);
+        font-family: var(--font-main);
+    }
+
+    body.light-theme {
+        background: var(--bg-light);
+        background:var(--rad-light);
+        color: var(--text-dark);
+        font-family: var(--font-main);
+  }
+}
+
 
 /* Reset Links */
 a, a:hover, a:focus, a:active {
@@ -141,8 +158,8 @@ ul, li{
 #overlay{
     position: fixed;
     z-index: 1;
-    width: 20%;
-    height: 100%;
+    width: 100%;
+    height: 20%;
     overflow-x: hidden;
     transition: 0.9s;
     background: grey;
