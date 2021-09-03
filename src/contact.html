@@ -18,57 +18,88 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/light.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Inter:wght@100&family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/383c4a61fe.js" crossorigin="anonymous"></script>
     <meta name="theme-color" content="#fafafa">
 </head>
 
+
 <body>
     <header class="container-header">
-        <nav class="menu-wrap">
-            <input type="checkbox" class="toggler">
-            <div class="hamburger">
-                <div>
-                </div>
+        <div class="top-grid">
+            <!-- Dark Mode Toggler -->
+            <div class="head-toggle">
+                <input id="tgl" type="checkbox" class="hidden">
+                <label for="tgl" class="pointer">
+                    <i class="fas fa-lightbulb fa-2x"></i>
+                </label>
             </div>
-            <div class="menu">
-                <div>
-                    <div>
-                        <ul class="center">
-                            <li><a href="index.html" target="_self" rel="noopener noreferrer">Home</a></li>
-                            <li><a href="blog.html" target="_self" rel="noopener noreferrer">Blog</a></li>
-                            <li><a href="resume.html" target="_self" rel="noopener noreferrer">Resume</a></li>
-                            <li><a href="contact.html" target="_self" rel="noopener noreferrer">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Title -->
+            <div class="head-title">
+                <h1 class="title ham center-text">Adam Payne</h1>
             </div>
-        </nav>
-
-        <h1 class="title">Adam Payne</h1>
-        <h2 class="subtitle">Developer | Stoic | Anarchist</h2>
-
-        <nav class="social">
-            <ul>
-                <li><a href="https://github.com/PayneLessDev"><i class="fab fa-github-square fa-2x"></i></a></li>
-                <li><a href="https://www.instagram.com/paynelessdev/"><i class="fab fa-instagram-square fa-2x"></a></i></li>
-                <li><a href="https://www.linkedin.com/in/paynelessdev/"><i class="fab fa-linkedin fa-2x"></a></i></li>
-                <li><a href="https://twitter.com/PayneLessDev"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-                <li><a href="https://medium.com/@paynelessdev"><i class="fab fa-medium fa-2x"></a></i></li>
-            </ul>
-        </nav>
+            <!-- Hamburger -->
+            <div class="head-hamburger">
+                <input id="burger" type="checkbox" class="hidden"/>
+                <label for="burger" class="pointer">
+                    <i class="fas fa-bars fa-2x"></i>
+                </label>
+            </div>
+            <!-- Hamburger Nav -->
+            <!-- Subtitle -->
+            <h2 class="subtitle ham center-text">Developer | Stoic | Anarchist</h2>
+            <!-- Socials -->
+            <div class="socials">
+                <nav class="socials-nav">
+                    <ul>
+                        <li><a href="https://github.com/PayneLessDev"><i class="fab fa-github-square fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/paynelessdev/"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/paynelessdev/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/PayneLessDev"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                        <li><a href="https://medium.com/@paynelessdev"><i class="fab fa-medium fa-2x"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main class="container-main">
-        <!-- TODO -->
+        <div class="contact-form">
+            <form action="">
+                <h1>The Plan</h1>
+                <p>Elit voluptas accusantium totam inventore at expedita hic. Molestias iusto quibusdam molestias quibusdam adipisci? Accusantium aut necessitatibus error dolor est, quos? Cumque dolorum ipsum iusto nulla exercitationem? Ipsa repudiandae porro?</p>
+                <p>
+                    Ipsum praesentium voluptate quo a sequi? Cupiditate iste reprehenderit exercitationem tenetur tenetur dignissimos Temporibus neque molestiae inventore ipsam inventore Quo reprehenderit deserunt dicta vel necessitatibus eum. Minima corporis nobis error?
+                </p>
+                <h2>Step One</h2>
+                <p>
+                    Adipisicing harum tempora fugiat velit blanditiis! Nihil nesciunt ut eum ab a autem Inventore saepe quod a rerum aliquid. Harum nemo commodi error labore ipsa Tenetur ipsum repellendus quia maiores.
+                </p>
+                <p>
+                    Consectetur beatae quis odit voluptatum mollitia Nisi adipisci atque veritatis culpa commodi Eaque dicta est vel quibusdam nihil Itaque excepturi harum tempore ratione blanditiis natus illum! Facilis quisquam soluta laborum
+                </p>
+
+            </form>
+        </div>
+            <nav id="overlay" class="hidden">
+                <div class="overlay-content">
+                    <ul>
+                        <li><h2><a href="">Home</a></h1></li>
+                        <li><h2><a href="">Blog</a></h1></li>
+                        <li><h2><a href="">Resume</a></h1></li>
+                        <li><h2><a href="">Contact</a></h1></li>
+                    </ul>
+                </div>
+            </nav>
     </main>
 
     <footer class="container-footer">
         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> PayneLessDev&trade;</p>
     </footer>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
