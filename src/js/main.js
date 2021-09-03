@@ -9,7 +9,7 @@ burger.addEventListener('change', function(){
 });
 
 
-chekbox.addEventListener("click", function() {
+checkbox.addEventListener("click", function() {
   if (prefersDarkScheme.matches) {
     document.body.classList.toggle("light-theme");
   } else {
