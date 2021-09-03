@@ -4,10 +4,15 @@ const overlay = document.getElementById("overlay")
 
 
 
-checkbox.addEventListener('change', function(){
-    document.body.classList.toggle("dark-theme");
-});
-
 burger.addEventListener('change', function(){
     document.getElementById("overlay").classList.toggle("hidden");
+});
+
+
+chekbox.addEventListener("click", function() {
+  if (prefersDarkScheme.matches) {
+    document.body.classList.toggle("light-theme");
+  } else {
+    document.body.classList.toggle("dark-theme");
+  }
 });
