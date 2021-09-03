@@ -1,8 +1,12 @@
 const checkbox = document.getElementById("tgl");
 const burger = document.getElementById("burger")
 const overlay = document.getElementById("overlay")
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 
+checkbox.addEventListener('change', function(){
+    document.body.classList.toggle("dark-theme");
+});
 
 burger.addEventListener('change', function(){
     document.getElementById("overlay").classList.toggle("hidden");
