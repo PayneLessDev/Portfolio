@@ -197,60 +197,29 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Blog Page */
-.blog-home{
+.container-blog{
+    padding: 0;
+    margin: 0;
     width: 100%;
     height: 100%;
-    display:grid;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 5% 95%;
     grid-template-areas:
     "title title"
-    "side main";
-    grid-template-columns: 20% 80%;
-    background: green;
+    "sidebar main";
 }
-
+.container-blog h1{
+    margin: 0;
+}
 .blog-title{
-    width: 100%;
-    background: red;
+    text-align: center;
     grid-area: title;
 }
-.blog-posts{
-    background: yellow;
-    border-style: solid;
-    grid-area: side;
+.blog-aside{
+    grid-area: sidebar;
 }
-.blog-posts ul{
-    padding: 2px 0px 2px 5px;
-}
-.blog-blurb{
-    padding: 20px;
-    background: blue;
+.blog-main{
     grid-area: main;
-}
-.blog-blurb img{
-    width: 100px;
-}
-.blog1{
-    margin: 5px;
-    background: lightblue;
-}
-.blog2{
-    margin: 5px;
-    background:lightblue;
-}
-.blog3{
-    margin: 5px;
-    background:lightblue;
-}
-.blog4{
-    margin: 5px;
-    background:lightblue;
-}
-.blog4{
-    margin: 5px;
-    background:lightblue;
-}
-.blog5{
-    margin:5px;
-    background:lightblue;
-    display: flex;
+    padding: 1rem;
 }
