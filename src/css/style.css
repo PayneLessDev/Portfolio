@@ -177,9 +177,15 @@ ul, li{
   display: block;
   transition: 0.3s;
 }
-/* ************************************************************************* */
 /* Contact Page */
-/* ************************************************************************* */
 .contact-form{
     width: 60ch;
+    padding: 1em;
+    box-shadow: 0 0 20px 0 rgba(73,75,83,0.7);
+    text-align: center;
 }
+
+#contact-message{
+
+}
+
