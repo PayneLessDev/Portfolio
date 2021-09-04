@@ -180,14 +180,17 @@ ul, li{
 /* Contact Page */
 .contact-form{
     width: 60ch;
-    padding: 1em;
     box-shadow: 0 0 20px 0 rgba(73,75,83,0.7);
     text-align: center;
 }
-
+.contact-form *{
+    padding: 0;
+    margin: 0;
+}
+.contact-form div{
+    padding: 10px;
+    display: grid;
+}
 /* Blog Page */
-
 .blog{
     background: grey;
-}
-
