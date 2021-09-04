@@ -185,7 +185,9 @@ ul, li{
     text-align: center;
 }
 
-#contact-message{
+/* Blog Page */
 
+.blog{
+    background: grey;
 }
 
