@@ -252,6 +252,9 @@ blockquote{
     "col1 col2 col3";
 }
 
+.resume-page p{
+    padding: 10px;
+}
 .skill1{
     grid-area: skill1;
     padding: 10px;
