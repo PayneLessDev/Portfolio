@@ -8,25 +8,39 @@ In order to have sucsess in my job search its important to have a proffesional p
 this website will show off the relevent skills and knowledeg i have aquired to perefctive employeers.
 
 ## Functions and Features
+* Social Media Links
 
+* A toggle between light and dark themes.
+
+* Hamburger menu for internal navigation.
+
+* A working contact form.
+
+* Download button for resume.
 
 ## Site Map
 Here is the sitemap with all the html documents and their relationship to each other.
 ![](docs/img/Sitemap.png)
 
 ## Wireframes
-Prototyping wireframes
+Prototyping wireframes.
 ### Layout
+How the flexbox and grids will be layed out.
 ![](docs/img/layout.png)
 ### Index
+The landing page.
 ![](docs/img/index.png)
 ### Blog
+On going blog posts.
 ![](docs/img/blog.png)
 ### Blog Post
+An example blog post.
 ![](docs/img/post.png)
 ### Resume
+Portfolio and Resume Page.
 ![](docs/img/resume.png)
 ### Contact
+My contact information and form.
 ![](docs/img/contact.png)
 
 ## Screenshot
@@ -52,7 +66,7 @@ Screenshots of the Live website
 
 * **GIT and Github;** Local and remote version control.
 
-* **HTML5, CSS3 & Javascript;** The markup and scripting languages.
+* **HTML5, CSS3 & Javascript;** Utilizing Flexbox and Grid.
 
 * **Netlify;** continuous integration and Deployment platform.
 
