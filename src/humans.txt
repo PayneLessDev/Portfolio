@@ -7,7 +7,7 @@
 
 # THANKS
 
-    <name>
+    Lisa Dixon
 
 # TECHNOLOGY COLOPHON
 

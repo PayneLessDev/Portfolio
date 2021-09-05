@@ -2,10 +2,13 @@
 URL: [Portfolio](https://www.paynelessdev.tech) | Repo: [Github](https://github.com/PayneLessDev/portfolio) | [![Netlify Status](https://api.netlify.com/api/v1/badges/72d99ff2-d9fb-4c4f-8555-b8b374aa6b51/deploy-status)](https://app.netlify.com/sites/optimistic-varahamihira-178b69/deploys)
 
 ## Purpose
+* Establish credibility by showcasing my work, ideas and projects.
 
-In order to have sucsess in my job search its important to have a proffesional portfolio website,
+* Communicate my abilities, knowledge and accomplishments in a compelling and informative way.
 
-this website will show off the relevent skills and knowledeg i have aquired to perefctive employeers.
+* Attract the attention of prospective employers
+
+* Distinguish myself from my other professionals in my field.
 
 ## Functions and Features
 * Social Media Links
