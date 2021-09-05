@@ -32,8 +32,12 @@
 .ham{
     font-family: var(--font-heading)
 }
-
-
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
 /* Body Themes */
 body{
     background: var(--bg-light);
@@ -142,11 +146,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Profile Image */
+.profile{
+    text-align:center;
+}
 .profile>img{
     border-radius: 50%;
     width: 20rem;
+    margin-bottom: 50px;
+    box-shadow: 0 0 50px 0 rgba(73,75,83,0.7);
+}
+.profile p{
+    margin: 5px 0 5px 0;
 }
 
+blockquote{
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(73,75,83,0.7);
+}
 /* Social Bar */
 .socials-nav>ul{
     margin: 0;
