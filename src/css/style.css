@@ -239,3 +239,34 @@ blockquote{
     grid-area: main;
     padding: 1rem;
 }
+.resume-page{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 5% 25% 35% 35%;
+    grid-template-areas:
+    ". btn ."
+    "skill1 skill2 skill3"
+    "a3 b3 c3"
+    "a4 b4 c4";
+}
+
+.skill1{
+    grid-area: skill1;
+    padding: 10px;
+    text-align: center;
+}
+
+.skill2{
+    grid-area: skill2;
+    text-align: center;
+}
+.skill3{
+    grid-area: skill3;
+    text-align: center;
+}
+
+.resume-btn{
+    grid-area: btn;
+}
