@@ -2,6 +2,7 @@
 URL: [Portfolio](https://optimistic-varahamihira-178b69.netlify.app) | Repo: [Github](https://github.com/PayneLessDev/portfolio)
 
 ##Purpose##
+
 Completeing this bootcamp is the first step in the wed developer career.
 
 In order to have sucsess in my job search its important to have a proffesional portfolio website,
@@ -16,8 +17,12 @@ Here is the sitemap with all the html documents and their relationship to each o
 ![](docs/img/Sitemap.png)
 
 ##Wireframes##
-Here is an example of some of the wireframes produced for this project.
-![](docs/img/Blog.png)
+![](docs/img/layout.png)
+![](docs/img/index.png)
+![](docs/img/blog.png)
+![](docs/img/post.png)
+![](docs/img/resume.png)
+![](docs/img/contact.png)
 
 ##Screenshot##
 
