@@ -3,8 +3,6 @@ URL: [Portfolio](https://www.paynelessdev.tech) | Repo: [Github](https://github.
 
 ## Purpose
 
-Completeing this bootcamp is the first step in the wed developer career.
-
 In order to have sucsess in my job search its important to have a proffesional portfolio website,
 
 this website will show off the relevent skills and knowledeg i have aquired to perefctive employeers.
@@ -17,6 +15,7 @@ Here is the sitemap with all the html documents and their relationship to each o
 ![](docs/img/Sitemap.png)
 
 ## Wireframes
+Prototyping wireframes
 ### Layout
 ![](docs/img/layout.png)
 ### Index
@@ -31,6 +30,7 @@ Here is the sitemap with all the html documents and their relationship to each o
 ![](docs/img/contact.png)
 
 ## Screenshot
+Screenshots of the Live website
 ### Index
 ![](docs/img/indexss.png)
 ### Blog
@@ -43,15 +43,18 @@ Here is the sitemap with all the html documents and their relationship to each o
 ![](docs/img/contactss.png)
 
 ## Target Audience
+* Prospective Employers
+
+* Other Information Technology professionals
 
 ## Tech Stack
-* [HTML boilerplate](https://html5boilerplate.com); Folder structure and defaults for css and html see documentation.
+* [HTML boilerplate](https://html5boilerplate.com); Folder structure and defaults for CSS and HTML see documentation.
 
-* **GIT and Github;** Local and remote version controll.
+* **GIT and Github;** Local and remote version control.
 
 * **HTML5, CSS3 & Javascript;** The markup and scripting languages.
 
-* **Netlify;** Continous intergration and Deployment platform.
+* **Netlify;** continuous integration and Deployment platform.
 
 * **Balsamiq;** All mockups and wireframes.
 
