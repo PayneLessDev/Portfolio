@@ -19,18 +19,29 @@ Here is the sitemap with all the html documents and their relationship to each o
 ![](docs/img/Sitemap.png)
 
 ## Wireframes
+### Layout
 ![](docs/img/layout.png)
+### Index
 ![](docs/img/index.png)
+### Blog
 ![](docs/img/blog.png)
+### Blog Post
 ![](docs/img/post.png)
+### Resume
 ![](docs/img/resume.png)
+### Contact
 ![](docs/img/contact.png)
 
 ## Screenshot
+### Index
 ![](docs/img/indexss.png)
+### Blog
 ![](docs/img/blogss.png)
+### Blog Post
 ![](docs/img/postss.png)
+### Resume
 ![](docs/img/resumess.png)
+### Contact
 ![](docs/img/contactss.png)
 
 ## Target Audience
