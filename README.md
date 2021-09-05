@@ -1,7 +1,5 @@
 # T1A2 - Portfolio
-URL: [Portfolio](https://optimistic-varahamihira-178b69.netlify.app) | Repo: [Github](https://github.com/PayneLessDev/portfolio)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/72d99ff2-d9fb-4c4f-8555-b8b374aa6b51/deploy-status)](https://app.netlify.com/sites/optimistic-varahamihira-178b69/deploys)
+URL: [Portfolio](https://www.paynelessdev.tech) | Repo: [Github](https://github.com/PayneLessDev/portfolio) | [![Netlify Status](https://api.netlify.com/api/v1/badges/72d99ff2-d9fb-4c4f-8555-b8b374aa6b51/deploy-status)](https://app.netlify.com/sites/optimistic-varahamihira-178b69/deploys)
 
 ## Purpose
 
@@ -47,5 +45,18 @@ Here is the sitemap with all the html documents and their relationship to each o
 ## Target Audience
 
 ## Tech Stack
-html5boilerplate with normalize.css
+* [HTML boilerplate](https://html5boilerplate.com); for folder structure and defaults for css and html
 
+* GIT and Github; for local and remote version controll
+
+* HTML5, CSS3 & Javascript; the actual languages used
+
+* Netlify; Continous intergration and Deployment platform
+
+* Wireframes done with balsamiq
+
+* Slide deck created with google sheets
+
+* Domain purchased through get.tech
+
+* check dotfiles repo for editor and terminal configs
