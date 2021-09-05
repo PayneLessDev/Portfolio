@@ -45,18 +45,18 @@ Here is the sitemap with all the html documents and their relationship to each o
 ## Target Audience
 
 ## Tech Stack
-* [HTML boilerplate](https://html5boilerplate.com); for folder structure and defaults for css and html
+* [HTML boilerplate](https://html5boilerplate.com); Folder structure and defaults for css and html see documentation.
 
-* GIT and Github; for local and remote version controll
+* **GIT and Github;** Local and remote version controll.
 
-* HTML5, CSS3 & Javascript; the actual languages used
+* **HTML5, CSS3 & Javascript;** The markup and scripting languages.
 
-* Netlify; Continous intergration and Deployment platform
+* **Netlify;** Continous intergration and Deployment platform.
 
-* Wireframes done with balsamiq
+* **Balsamiq;** All mockups and wireframes.
 
-* Slide deck created with google sheets
+* **Google Slides;** used to create slide deck.
 
-* Domain purchased through get.tech
+* Domain purchased through get.tech.
 
-* check dotfiles repo for editor and terminal configs
+* check dotfiles repo for editor and terminal configs.
