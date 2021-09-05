@@ -248,8 +248,8 @@ blockquote{
     grid-template-areas:
     ". btn ."
     "skill1 skill2 skill3"
-    "a3 b3 c3"
-    "a4 b4 c4";
+    "col1 col2 col3"
+    "col1 col2 col3";
 }
 
 .skill1{
@@ -269,4 +269,16 @@ blockquote{
 
 .resume-btn{
     grid-area: btn;
+}
+
+.col1{
+    grid-area: col1;
+}
+
+.col2{
+    grid-area: col2;
+}
+
+.col3{
+    grid-area: col3;
 }
