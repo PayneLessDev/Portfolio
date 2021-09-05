@@ -285,3 +285,9 @@ blockquote{
 .col3{
     grid-area: col3;
 }
+
+.image-blog{
+    border-radius: 50%;
+    width: 20rem;
+    margin-bottom: 50px;
+}
