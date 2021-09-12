@@ -16,3 +16,16 @@ checkbox.addEventListener("click", function() {
     document.body.classList.toggle("dark-theme");
   }
 });
+
+
+var quotes = [
+    'one',
+    'two',
+    'three',
+]
+function newQuote(){
+var randomNumber = Math.floor(Math.random() * 20);
+    document.getElementById('quote').innerHTML = quotes[randonNumber];
+console.log(randomNumber)
+}
+document.getElementById("container-main").addEventListener("load", randomNumber);
